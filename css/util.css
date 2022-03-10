@@ -1,0 +1,71 @@
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.ml-16{
+    margin-left: 16px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.w-40p {
+    width: 40%;
+}
+
+.w-50p {
+    width: 50%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-red-500 {
+    color: var(--red-500);
+}
+
+.text-green-300 {
+    color: var(--teal-500);
+}

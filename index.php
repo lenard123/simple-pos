@@ -84,7 +84,7 @@ $products = Product::all();
                                             <button @click="addQuantity(cart)">+</button>
                                         </div>
                                     </div>
-                                    <span class="right" x-text="cart.price"></span>
+                                    <span class="right" x-text="(cart.quantity * cart.product.price) + 'PHP'"></span>
                                 </div>                                
                             </template>
                         </div>

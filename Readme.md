@@ -10,16 +10,16 @@
 # Screenshots
 
 1. Login Page
-    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/1.jpg?raw=true)
+    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/1.JPG?raw=true)
 
 2. Manage Products
-    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/2.jpg?raw=true)
+    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/2.JPG?raw=true)
 
 3. Add New Product
-    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/3.jpg?raw=true)
+    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/3.JPG?raw=true)
 
 4. Manage Category
-    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/4.jpg?raw=true)
+    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/4.JPG?raw=true)
 
 5. Cashier Panel
-    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/5.jpg?raw=true)
+    ![Login Page](https://github.com/lenard123/simple-pos/blob/main/screenshot/5.JPG?raw=true)

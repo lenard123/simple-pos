@@ -3,7 +3,8 @@
 require_once __DIR__.'/../_init.php';
 
 if (post('action') === 'proccess_order') {
-    $order = Order::create();
+    $currentUser = User::getAuthenticatedUser();
+    $order = Order::create($currentUser->id);
 
     foreach ($_POST['cart_item'] as $item) {
         OrderItem::add($order->id, $item);

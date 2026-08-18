@@ -5,20 +5,23 @@ require_once __DIR__.'/../_init.php';
 class Order
 {
     public $id;
+    public $user_id;
     public $created_at;
 
     public function __construct($order)
     {
         $this->id = $order['id'];
+        $this->user_id = $order['user_id'];
         $this->created_at = $order['created_at'];
     }
 
-    public static function create()
+    public static function create($user_id)
     {
         global $connection;
 
-        $sql_command = 'INSERT INTO orders VALUES ()';
+        $sql_command = 'INSERT INTO orders (user_id) VALUES (:user_id)';
         $stmt = $connection->prepare($sql_command);
+        $stmt->bindParam('user_id', $user_id);
         $stmt->execute();
 
         return static::getLastRecord();
